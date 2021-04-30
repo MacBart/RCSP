@@ -10,7 +10,6 @@ public class DelegatingServletInputStream extends ServletInputStream {
 
     private final InputStream sourceStream;
 
-
     /**
      * Create a DelegatingServletInputStream for the given source stream.
      * @param sourceStream the source stream (never <code>null</code>)
