@@ -26,7 +26,6 @@ public class DelegatingServletInputStream extends ServletInputStream {
         return this.sourceStream;
     }
 
-
     public int read() throws IOException {
         return this.sourceStream.read();
     }
